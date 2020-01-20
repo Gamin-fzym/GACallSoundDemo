@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1825B6ED23BF16E00052136F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825B6EC23BF16E00052136F /* AppDelegate.m */; };
+		1825B6F023BF16E00052136F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825B6EF23BF16E00052136F /* SceneDelegate.m */; };
+		1825B6F323BF16E00052136F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825B6F223BF16E00052136F /* ViewController.m */; };
+		1825B6F623BF16E00052136F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1825B6F423BF16E00052136F /* Main.storyboard */; };
+		1825B6F823BF16E20052136F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1825B6F723BF16E20052136F /* Assets.xcassets */; };
+		1825B6FB23BF16E20052136F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1825B6F923BF16E20052136F /* LaunchScreen.storyboard */; };
+		1825B6FE23BF16E20052136F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825B6FD23BF16E20052136F /* main.m */; };
+		1825B70823BF16E20052136F /* GACallSoundDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825B70723BF16E20052136F /* GACallSoundDemoTests.m */; };
+		1825B71323BF16E20052136F /* GACallSoundDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825B71223BF16E20052136F /* GACallSoundDemoUITests.m */; };
+		1825B72423BF18660052136F /* iphone6dx.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1825B72223BF18660052136F /* iphone6dx.caf */; };
+		1825B72523BF18660052136F /* GAMsgBell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825B72323BF18660052136F /* GAMsgBell.m */; };
+		1825B73923BF1BE70052136F /* detection.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 1825B73623BF1BE70052136F /* detection.aiff */; };
+		1825B73A23BF1BE70052136F /* RBDMuteSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825B73723BF1BE70052136F /* RBDMuteSwitch.m */; };
+		18264FB223C3316B003DE1D3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18264FB123C3316B003DE1D3 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1825B70423BF16E20052136F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1825B6E023BF16E00052136F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1825B6E723BF16E00052136F;
+			remoteInfo = GACallSoundDemo;
+		};
+		1825B70F23BF16E20052136F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1825B6E023BF16E00052136F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1825B6E723BF16E00052136F;
+			remoteInfo = GACallSoundDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1825B6E823BF16E00052136F /* GACallSoundDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GACallSoundDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1825B6EB23BF16E00052136F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1825B6EC23BF16E00052136F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1825B6EE23BF16E00052136F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1825B6EF23BF16E00052136F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1825B6F123BF16E00052136F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1825B6F223BF16E00052136F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1825B6F523BF16E00052136F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1825B6F723BF16E20052136F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1825B6FA23BF16E20052136F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1825B6FC23BF16E20052136F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1825B6FD23BF16E20052136F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1825B70323BF16E20052136F /* GACallSoundDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GACallSoundDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1825B70723BF16E20052136F /* GACallSoundDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GACallSoundDemoTests.m; sourceTree = "<group>"; };
+		1825B70923BF16E20052136F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1825B70E23BF16E20052136F /* GACallSoundDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GACallSoundDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1825B71223BF16E20052136F /* GACallSoundDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GACallSoundDemoUITests.m; sourceTree = "<group>"; };
+		1825B71423BF16E20052136F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1825B72123BF18660052136F /* GAMsgBell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAMsgBell.h; sourceTree = "<group>"; };
+		1825B72223BF18660052136F /* iphone6dx.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iphone6dx.caf; sourceTree = "<group>"; };
+		1825B72323BF18660052136F /* GAMsgBell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAMsgBell.m; sourceTree = "<group>"; };
+		1825B73623BF1BE70052136F /* detection.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = detection.aiff; sourceTree = "<group>"; };
+		1825B73723BF1BE70052136F /* RBDMuteSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBDMuteSwitch.m; sourceTree = "<group>"; };
+		1825B73823BF1BE70052136F /* RBDMuteSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBDMuteSwitch.h; sourceTree = "<group>"; };
+		18264FAF23C3301D003DE1D3 /* CoreAudioTypes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioTypes.framework; path = System/Library/Frameworks/CoreAudioTypes.framework; sourceTree = SDKROOT; };
+		18264FB123C3316B003DE1D3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1825B6E523BF16E00052136F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18264FB223C3316B003DE1D3 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825B70023BF16E20052136F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825B70B23BF16E20052136F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1825B6DF23BF16E00052136F = {
+			isa = PBXGroup;
+			children = (
+				1825B6EA23BF16E00052136F /* GACallSoundDemo */,
+				1825B70623BF16E20052136F /* GACallSoundDemoTests */,
+				1825B71123BF16E20052136F /* GACallSoundDemoUITests */,
+				1825B6E923BF16E00052136F /* Products */,
+				18264FAE23C3301D003DE1D3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1825B6E923BF16E00052136F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1825B6E823BF16E00052136F /* GACallSoundDemo.app */,
+				1825B70323BF16E20052136F /* GACallSoundDemoTests.xctest */,
+				1825B70E23BF16E20052136F /* GACallSoundDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1825B6EA23BF16E00052136F /* GACallSoundDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1825B6EB23BF16E00052136F /* AppDelegate.h */,
+				1825B6EC23BF16E00052136F /* AppDelegate.m */,
+				1825B6EE23BF16E00052136F /* SceneDelegate.h */,
+				1825B6EF23BF16E00052136F /* SceneDelegate.m */,
+				1825B6F123BF16E00052136F /* ViewController.h */,
+				1825B6F223BF16E00052136F /* ViewController.m */,
+				1825B6F423BF16E00052136F /* Main.storyboard */,
+				1825B73523BF1BE70052136F /* mute_detection */,
+				1825B72023BF18660052136F /* Bell */,
+				1825B6F723BF16E20052136F /* Assets.xcassets */,
+				1825B6F923BF16E20052136F /* LaunchScreen.storyboard */,
+				1825B6FC23BF16E20052136F /* Info.plist */,
+				1825B6FD23BF16E20052136F /* main.m */,
+			);
+			path = GACallSoundDemo;
+			sourceTree = "<group>";
+		};
+		1825B70623BF16E20052136F /* GACallSoundDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1825B70723BF16E20052136F /* GACallSoundDemoTests.m */,
+				1825B70923BF16E20052136F /* Info.plist */,
+			);
+			path = GACallSoundDemoTests;
+			sourceTree = "<group>";
+		};
+		1825B71123BF16E20052136F /* GACallSoundDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1825B71223BF16E20052136F /* GACallSoundDemoUITests.m */,
+				1825B71423BF16E20052136F /* Info.plist */,
+			);
+			path = GACallSoundDemoUITests;
+			sourceTree = "<group>";
+		};
+		1825B72023BF18660052136F /* Bell */ = {
+			isa = PBXGroup;
+			children = (
+				1825B72123BF18660052136F /* GAMsgBell.h */,
+				1825B72323BF18660052136F /* GAMsgBell.m */,
+				1825B72223BF18660052136F /* iphone6dx.caf */,
+			);
+			path = Bell;
+			sourceTree = "<group>";
+		};
+		1825B73523BF1BE70052136F /* mute_detection */ = {
+			isa = PBXGroup;
+			children = (
+				1825B73623BF1BE70052136F /* detection.aiff */,
+				1825B73823BF1BE70052136F /* RBDMuteSwitch.h */,
+				1825B73723BF1BE70052136F /* RBDMuteSwitch.m */,
+			);
+			path = mute_detection;
+			sourceTree = "<group>";
+		};
+		18264FAE23C3301D003DE1D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18264FB123C3316B003DE1D3 /* AVFoundation.framework */,
+				18264FAF23C3301D003DE1D3 /* CoreAudioTypes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1825B6E723BF16E00052136F /* GACallSoundDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1825B71723BF16E20052136F /* Build configuration list for PBXNativeTarget "GACallSoundDemo" */;
+			buildPhases = (
+				1825B6E423BF16E00052136F /* Sources */,
+				1825B6E523BF16E00052136F /* Frameworks */,
+				1825B6E623BF16E00052136F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GACallSoundDemo;
+			productName = GACallSoundDemo;
+			productReference = 1825B6E823BF16E00052136F /* GACallSoundDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1825B70223BF16E20052136F /* GACallSoundDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1825B71A23BF16E20052136F /* Build configuration list for PBXNativeTarget "GACallSoundDemoTests" */;
+			buildPhases = (
+				1825B6FF23BF16E20052136F /* Sources */,
+				1825B70023BF16E20052136F /* Frameworks */,
+				1825B70123BF16E20052136F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1825B70523BF16E20052136F /* PBXTargetDependency */,
+			);
+			name = GACallSoundDemoTests;
+			productName = GACallSoundDemoTests;
+			productReference = 1825B70323BF16E20052136F /* GACallSoundDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1825B70D23BF16E20052136F /* GACallSoundDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1825B71D23BF16E20052136F /* Build configuration list for PBXNativeTarget "GACallSoundDemoUITests" */;
+			buildPhases = (
+				1825B70A23BF16E20052136F /* Sources */,
+				1825B70B23BF16E20052136F /* Frameworks */,
+				1825B70C23BF16E20052136F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1825B71023BF16E20052136F /* PBXTargetDependency */,
+			);
+			name = GACallSoundDemoUITests;
+			productName = GACallSoundDemoUITests;
+			productReference = 1825B70E23BF16E20052136F /* GACallSoundDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1825B6E023BF16E00052136F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					1825B6E723BF16E00052136F = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					1825B70223BF16E20052136F = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 1825B6E723BF16E00052136F;
+					};
+					1825B70D23BF16E20052136F = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 1825B6E723BF16E00052136F;
+					};
+				};
+			};
+			buildConfigurationList = 1825B6E323BF16E00052136F /* Build configuration list for PBXProject "GACallSoundDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1825B6DF23BF16E00052136F;
+			productRefGroup = 1825B6E923BF16E00052136F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1825B6E723BF16E00052136F /* GACallSoundDemo */,
+				1825B70223BF16E20052136F /* GACallSoundDemoTests */,
+				1825B70D23BF16E20052136F /* GACallSoundDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1825B6E623BF16E00052136F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1825B6FB23BF16E20052136F /* LaunchScreen.storyboard in Resources */,
+				1825B73923BF1BE70052136F /* detection.aiff in Resources */,
+				1825B6F823BF16E20052136F /* Assets.xcassets in Resources */,
+				1825B72423BF18660052136F /* iphone6dx.caf in Resources */,
+				1825B6F623BF16E00052136F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825B70123BF16E20052136F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825B70C23BF16E20052136F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1825B6E423BF16E00052136F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1825B6F323BF16E00052136F /* ViewController.m in Sources */,
+				1825B72523BF18660052136F /* GAMsgBell.m in Sources */,
+				1825B6ED23BF16E00052136F /* AppDelegate.m in Sources */,
+				1825B6FE23BF16E20052136F /* main.m in Sources */,
+				1825B6F023BF16E00052136F /* SceneDelegate.m in Sources */,
+				1825B73A23BF1BE70052136F /* RBDMuteSwitch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825B6FF23BF16E20052136F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1825B70823BF16E20052136F /* GACallSoundDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825B70A23BF16E20052136F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1825B71323BF16E20052136F /* GACallSoundDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1825B70523BF16E20052136F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1825B6E723BF16E00052136F /* GACallSoundDemo */;
+			targetProxy = 1825B70423BF16E20052136F /* PBXContainerItemProxy */;
+		};
+		1825B71023BF16E20052136F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1825B6E723BF16E00052136F /* GACallSoundDemo */;
+			targetProxy = 1825B70F23BF16E20052136F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1825B6F423BF16E00052136F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1825B6F523BF16E00052136F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1825B6F923BF16E20052136F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1825B6FA23BF16E20052136F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1825B71523BF16E20052136F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1825B71623BF16E20052136F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1825B71823BF16E20052136F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G5L542228;
+				INFOPLIST_FILE = GACallSoundDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.GACallSoundDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1825B71923BF16E20052136F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G5L542228;
+				INFOPLIST_FILE = GACallSoundDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.GACallSoundDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1825B71B23BF16E20052136F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GACallSoundDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.GACallSoundDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GACallSoundDemo.app/GACallSoundDemo";
+			};
+			name = Debug;
+		};
+		1825B71C23BF16E20052136F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GACallSoundDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.GACallSoundDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GACallSoundDemo.app/GACallSoundDemo";
+			};
+			name = Release;
+		};
+		1825B71E23BF16E20052136F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GACallSoundDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.GACallSoundDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GACallSoundDemo;
+			};
+			name = Debug;
+		};
+		1825B71F23BF16E20052136F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GACallSoundDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.GACallSoundDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GACallSoundDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1825B6E323BF16E00052136F /* Build configuration list for PBXProject "GACallSoundDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1825B71523BF16E20052136F /* Debug */,
+				1825B71623BF16E20052136F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1825B71723BF16E20052136F /* Build configuration list for PBXNativeTarget "GACallSoundDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1825B71823BF16E20052136F /* Debug */,
+				1825B71923BF16E20052136F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1825B71A23BF16E20052136F /* Build configuration list for PBXNativeTarget "GACallSoundDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1825B71B23BF16E20052136F /* Debug */,
+				1825B71C23BF16E20052136F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1825B71D23BF16E20052136F /* Build configuration list for PBXNativeTarget "GACallSoundDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1825B71E23BF16E20052136F /* Debug */,
+				1825B71F23BF16E20052136F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1825B6E023BF16E00052136F /* Project object */;
+}
